@@ -1,0 +1,1360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- links -->
+    <link rel="stylesheet" href="./icons/icomoon/icons.css" />
+    <link rel="stylesheet" href="./libs/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- links -->
+    <title>Pizza</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="header-top">
+            <div class="container">
+                <div class="header-top-wrapper">
+                    <div class="header-loc">
+                        <a href=""><i class="icon-Location-nav"></i></a>
+                        <button class="btn-region">
+                            <a href="">Москва</a>
+                            <i class="icon-angel-down"></i>
+                        </button>
+                    </div>
+                    <div class="header-check">
+                        <a href="#checkadress">
+                            Проверить Адрес
+                        </a>
+                    </div>
+                    <div class="header-delivery">
+                        <p>Среднее время доставки*:<span>00:24:19</span></p>
+                    </div>
+                    <div class="header-work_time">
+                        <p>Время работы: с 11:00 до 23:00</p>
+                    </div>
+                    <div class="header-acc">
+                        <a href="">
+                            <i class="icon-person-nav"></i>
+                            <span>Войти в аккаунт</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="header-bottom">
+            <div class="container">
+                <div class="header-wrapper">
+                    <div class="header-logo">
+                        <a href="">
+                            <i class="icon-pizza-nav"></i>
+                            <p>Куда Пицца</p>
+                        </a>
+                    </div>
+                    <button class="navBurger" id="navMenu" type="button" data-bs-toggle="offcanvas"
+                        data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight"
+                        aria-labelledby="offcanvasRightLabel">
+                        <div class="offcanvas-header">
+                            <h5 id="#navMenu"><a href="">
+                                    <i class="icon-pizza-nav"></i>
+                                    <p>Куда Пицца</p>
+                                </a></h5>
+                            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"
+                                aria-label="Close"></button>
+                        </div>
+                        <div class="offcanvas-body">
+                            <div class="navAcc">
+                                <a href="">
+                                    <i class="icon-person-nav"></i>
+                                    <span>Войти в аккаунт</span>
+                                </a>
+                            </div>
+                            <ul class="navList">
+                                <li><a href="">Акции</a></li>
+                                <li><a href="">О компании</a></li>
+                                <li><a href="">Пользовательское соглашение</a></li>
+                                <li><a href="">Условия гарантии</a></li>
+                                <li><a href="">Ресторан</a></li>
+                                <li><a href="">Контакты</a></li>
+                                <li><a href="">Поддержка</a></li>
+                                <li><a href="">Отследить заказ</a></li>
+                            </ul>
+
+                            <div class="navFooter">
+                                <div class="footer-list">
+                                    <ul>
+                                        <li><a href=""><i class="icon-phone"><span>+7 (926) 223-10-11</span></i></a>
+                                        </li>
+                                        <li><a href=""><i class="icon-Location-nav"><span>Москва, ул. Юных Ленинцев,
+                                                        д.99</span></i></a></li>
+                                    </ul>
+                                    <div class="footer-social">
+                                        <a href=""><i class="icon-Facebook"><span>Facebook</span></i></a>
+                                        <a href=""><i class="icon-instagramm"><span>Instagram</span></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Время работы: с 11:00 до 23:00</p>
+                        </div>
+                    </div>
+                    <div class="header-buy-btn">
+                        <a href=""><i class="icon-Shopping-bag"></i> <span>0 ₽</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header -->
+
+    <!-- MAIN -->
+
+    <!-- categories -->
+
+    <section class="categories">
+        <div class="container">
+            <div class="categories-wrapper">
+                <div class="categories-card">
+                    <a href="#stocks" class="categories-inner">
+                        <i class="icon-stock"></i>
+                        <p class="stock-txt">Акции</p>
+                    </a>
+                </div>
+                <div class="categories-card">
+                    <a href="#pizza" class="categories-inner">
+                        <i class="icon-Pizza"></i>
+                        <p>Пицца</p>
+                    </a>
+                </div>
+                <div class="categories-card">
+                    <a href="#sushi" class="categories-inner">
+                        <i class="icon-sushi"></i>
+                        <p>Суши</p>
+                    </a>
+                </div>
+                <div class="categories-card">
+                    <a href="#drink" class="categories-inner">
+                        <i class="icon-Drink"></i>
+                        <p>Напитки</p>
+                    </a>
+                </div>
+                <div class="categories-card">
+                    <a href="#snacks" class="categories-inner">
+                        <i class="icon-Snacks"></i>
+                        <p>Закуски</p>
+                    </a>
+                </div>
+                <div class="categories-card">
+                    <a href="#combo" class="categories-inner">
+                        <i class="icon-combo"></i>
+                        <p>Комбо</p>
+                    </a>
+                </div>
+                <div class="categories-card">
+                    <a href="#dessert" class="categories-inner">
+                        <i class="icon-dessert"></i>
+                        <p>Десерты</p>
+                    </a>
+                </div>
+                <div class="categories-card">
+                    <a href="#sauce" class="categories-inner">
+                        <i class="icon-Sauce"></i>
+                        <p>Соусы</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- categories -->
+
+    <!-- STOCKS -->
+    <section class="stocks" id="stocks">
+        <div class="container">
+            <div class="stocks-wrapper">
+                <div class="row flex-nowrap overflow-scroll">
+                    <div class="col-lg-3 col-md-9 col-8 px-md-3 ">
+                        <div class="stocks-card">
+                            <div class="stock-card-img">
+                                <img src="./images/stock-pizzas.jpg" alt="" />
+                            </div>
+                            <h3>
+                                3 средние пиццы <br />
+                                от 999 рублей
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-9 col-8 px-md-3 ">
+                        <div class="stocks-card">
+                            <div class="stock-card-img">
+                                <img src="./images/stock-pizzas-2.jpg" alt="" />
+                            </div>
+                            <h3>Кэшбек 10% на<br />самовывоз (доставка)</h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-9 col-8 px-md-3 ">
+                        <div class="stocks-card">
+                            <div class="stock-card-img">
+                                <img src="./images/stock-pizzas.jpg" alt="" />
+                            </div>
+                            <h3>
+                                3 средние пиццы <br />
+                                от 999 рублей
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-9 col-8 px-md-3">
+                        <div class="stocks-card">
+                            <div class="stock-card-img">
+                                <img src="./images/stock-pizzas-2.jpg" alt="" />
+                            </div>
+                            <h3>Кэшбек 10% на<br />самовывоз (доставка)</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- STOCKS -->
+
+    <!-- ADRESS -->
+    <section class="adress" id="adress">
+        <div class="container">
+            <div class="adress-wrapper">
+                <h4>Проверить адрес доставки</h4>
+                <form action="#php" class="mapForm">
+                    <div class="map-genInput">
+                        <i class="icon-Location-nav mapIcon"></i>
+                        <input id="checkadress" type="" placeholder="Адрес" class="mapInput" />
+                    </div>
+                    <input type="submit" value="Проверить" class="mapButtom" />
+                    <div class="input-send">
+                        <a href=""><i class="icon-send"></i></a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- ADRESS -->
+
+    <!-- Pizza -->
+    <section class="pizza" id="pizza">
+        <div class="container">
+            <div class="pizza-wrapper">
+                <h2>Пицца</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="pizza-card card-h3 card-p">
+                            <h4>New</h4>
+                            <div class="pizza-card-img">
+                                <img src="./images/pizza-1.png" alt="" />
+                            </div>
+                            <div class="pizza-card-inner">
+                                <h3>
+                                    Чикен Сладкий Чили
+                                </h3>
+                                <p>Курица, Лук, Перец Халапеньо,<br> Сыр Моцарелла, Томатный соу...</p>
+                                <div class="pizza-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>от 399 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="pizza-card card-h3 card-p">
+                            <h4>Хиты</h4>
+                            <div class="pizza-card-img">
+                                <img src="./images/pizza-2.png" alt="" />
+                            </div>
+                            <div class="pizza-card-inner">
+                                <h3>
+                                    EASY PEASY огуречный <br> расколбас
+                                </h3>
+                                <p>Курица, Лук, Перец Халапеньо...</p>
+                                <div class="pizza-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>от 549 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="pizza-card card-h3 card-p">
+                            <div class="pizza-card-img">
+                                <img src="./images/pizza-3.png" alt="" />
+                            </div>
+                            <div class="pizza-card-inner">
+                                <h3>
+                                    EASY PEASY чикен а-ля <br> хрен
+                                </h3>
+                                <p>Курица, Лук, Соус Карбонара,...</p>
+                                <div class="pizza-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>от 549 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="pizza-card card-h3 card-p">
+                            <div class="pizza-card-img">
+                                <img src="./images/pizza-4.png" alt="" />
+                            </div>
+                            <div class="pizza-card-inner">
+                                <h3>
+                                    4 сезона
+                                </h3>
+                                <p>Бекон, Ветчина, Грибы, Курица,<br> Лук, Маслины, Огурцы мари...</p>
+                                <div class="pizza-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>от 630 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="pizza-card card-h3 card-p">
+                            <div class="pizza-card-img">
+                                <img src="./images/pizza-4.png" alt="" />
+                            </div>
+                            <div class="pizza-card-inner">
+                                <h3>
+                                    4 сезона
+                                </h3>
+                                <p>Бекон, Ветчина, Грибы, Курица,<br> Лук, Маслины, Огурцы мари...</p>
+                                <div class="pizza-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>от 630 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="pizza-card card-h3 card-p">
+                            <div class="pizza-card-img">
+                                <img src="./images/pizza-3.png" alt="" />
+                            </div>
+                            <div class="pizza-card-inner">
+                                <h3>
+                                    EASY PEASY чикен а-ля <br> хрен
+                                </h3>
+                                <p>Курица, Лук, Соус Карбонара,...</p>
+                                <div class="pizza-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>от 249 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="pizza-card card-h3 card-p">
+                            <div class="pizza-card-img">
+                                <img src="./images/pizza-1.png" alt="" />
+                            </div>
+                            <div class="pizza-card-inner">
+                                <h3>
+                                    Чикен Сладкий Чили
+                                </h3>
+                                <p>Курица, Лук, Перец Халапеньо,<br> Сыр Моцарелла, Томатный соу...</p>
+                                <div class="pizza-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>от 549 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="pizza-card card-h3 card-p">
+                            <div class="pizza-card-img">
+                                <img src="./images/pizza-2.png" alt="" />
+                            </div>
+                            <div class="pizza-card-inner">
+                                <h3>
+                                    EASY PEASY огуречный <br />
+                                    расколбас
+                                </h3>
+                                <p>Курица, Лук, Перец Халапеньо...</p>
+                                <div class="pizza-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>от 549 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Pizza -->
+
+    <!-- sushi -->
+    <section class="sushi" id="sushi">
+        <div class="container">
+            <div class="sushi-wrapper">
+                <h2>Суши</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sushi-card card-h3 card-p">
+                            <h4>New</h4>
+                            <div class="sushi-card-img">
+                                <img src="./images/sushi-1.png" alt="" />
+                            </div>
+                            <div class="sushi-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br />
+                                    унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="sushi-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sushi-card card-h3 card-p">
+                            <h4>Хиты</h4>
+                            <div class="sushi-card-img">
+                                <img src="./images/sushi-2.png" alt="" />
+                            </div>
+                            <div class="sushi-card-inner">
+                                <h3>Филадельфия крем-брюле</h3>
+                                <p>
+                                    Сливочный сыр, семга татаки с <br> тростниковым сахаром, соус у...
+                                </p>
+                                <div class="sushi-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sushi-card card-h3 card-p">
+                            <div class="sushi-card-img">
+                                <img src="./images/sushi-3.png" alt="" />
+                            </div>
+                            <div class="sushi-card-inner">
+                                <h3>Супер Филадельфия</h3>
+                                <p>
+                                    Действительно много семги, <br> сливочный сыр, огурец, рис, н...
+                                </p>
+                                <div class="sushi-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>425 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sushi-card card-h3 card-p">
+                            <div class="sushi-card-img">
+                                <img src="./images/sushi-4.png" alt="" />
+                            </div>
+                            <div class="sushi-card-inner">
+                                <h3>Тигр мама</h3>
+                                <p>
+                                    Тигровая креветка, огурец, <br> авокадо, соус Айоли, рис, ик...
+                                </p>
+                                <div class="sushi-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>525 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sushi-card card-h3 card-p">
+                            <div class="sushi-card-img">
+                                <img src="./images/sushi-4.png" alt="" />
+                            </div>
+                            <div class="sushi-card-inner">
+                                <h3>Тигр мама</h3>
+                                <p>
+                                    Тигровая креветка, огурец, <br> авокадо, соус Айоли, рис, ик...
+                                </p>
+                                <div class="sushi-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>525 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sushi-card card-h3 card-p">
+                            <div class="sushi-card-img">
+                                <img src="./images/sushi-3.png" alt="" />
+                            </div>
+                            <div class="sushi-card-inner">
+                                <h3>Супер Филадельфия</h3>
+                                <p>
+                                    Действительно много семги, <br> сливочный сыр, огурец, рис, н...
+                                </p>
+                                <div class="sushi-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>425 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sushi-card card-h3 card-p">
+                            <div class="sushi-card-img">
+                                <img src="./images/sushi-1.png" alt="" />
+                            </div>
+                            <div class="sushi-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br />
+                                    унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="sushi-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sushi-card card-h3 card-p">
+                            <div class="sushi-card-img">
+                                <img src="./images/sushi-2.png" alt="" />
+                            </div>
+                            <div class="sushi-card-inner">
+                                <h3>Филадельфия крем-брюле</h3>
+                                <p>
+                                    Сливочный сыр, семга татаки с <br> тростниковым сахаром, соус у...
+                                </p>
+                                <div class="sushi-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- sushi -->
+
+    <!-- snacks -->
+    <section class="snacks" id="snacks">
+        <div class="container">
+            <div class="snacks-wrapper">
+                <h2>Закуски</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="snacks-card card-h3 card-p">
+                            <h4>New</h4>
+                            <div class="snacks-card-img">
+                                <img src="./images/snacks-1.png" alt="" />
+                            </div>
+                            <div class="snacks-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="snacks-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="snacks-card card-h3 card-p">
+                            <h4>Хиты</h4>
+                            <div class="snacks-card-img">
+                                <img src="./images/snacks-2.png" alt="" />
+                            </div>
+                            <div class="snacks-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="snacks-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="snacks-card card-h3 card-p">
+                            <div class="snacks-card-img">
+                                <img src="./images/snacks-3.png" alt="" />
+                            </div>
+                            <div class="snacks-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="snacks-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="snacks-card card-h3 card-p">
+                            <div class="snacks-card-img">
+                                <img src="./images/snacks-4.png" alt="" />
+                            </div>
+                            <div class="snacks-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="snacks-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="snacks-card card-h3 card-p">
+                            <div class="snacks-card-img">
+                                <img src="./images/snacks-4.png" alt="" />
+                            </div>
+                            <div class="snacks-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="snacks-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="snacks-card card-h3 card-p">
+                            <div class="snacks-card-img">
+                                <img src="./images/snacks-3.png" alt="" />
+                            </div>
+                            <div class="snacks-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="snacks-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="snacks-card card-h3 card-p">
+                            <div class="snacks-card-img">
+                                <img src="./images/snacks-7.png" alt="" />
+                            </div>
+                            <div class="snacks-card-inner">
+                                <h3>Филадельфия крем-брюле</h3>
+                                <p>
+                                    Сливочный сыр, семга татаки с <br> тростниковым сахаром, соус у...
+                                </p>
+                                <div class="snacks-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="snacks-card card-h3 card-p">
+                            <div class="snacks-card-img">
+                                <img src="./images/snacks-7.png" alt="" />
+                            </div>
+                            <div class="snacks-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="snacks-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- snacks -->
+
+
+    <!-- DESSERTS -->
+    <section class="desserts" id="desserts">
+        <div class="container">
+            <div class="desserts-wrapper">
+                <h2>Десерты</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="desserts-card card-h3 card-p">
+                            <h4>New</h4>
+                            <div class="desserts-card-img">
+                                <img src="./images/desserts-1.png" alt="" />
+                            </div>
+                            <div class="desserts-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="desserts-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="desserts-card card-h3 card-p">
+                            <h4>Хиты</h4>
+                            <div class="desserts-card-img">
+                                <img src="./images/desserts-2.png" alt="" />
+                            </div>
+                            <div class="desserts-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="desserts-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="desserts-card card-h3 card-p">
+                            <div class="desserts-card-img">
+                                <img src="./images/desserts-3.png" alt="" />
+                            </div>
+                            <div class="desserts-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="desserts-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="desserts-card card-h3 card-p">
+                            <div class="desserts-card-img">
+                                <img src="./images/desserts-4.png" alt="" />
+                            </div>
+                            <div class="desserts-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="desserts-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="desserts-card card-h3 card-p">
+                            <div class="desserts-card-img">
+                                <img src="./images/desserts-4.png" alt="" />
+                            </div>
+                            <div class="desserts-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="desserts-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="desserts-card card-h3 card-p">
+                            <div class="desserts-card-img">
+                                <img src="./images/desserts-5.png" alt="" />
+                            </div>
+                            <div class="desserts-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="desserts-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="desserts-card card-h3 card-p">
+                            <div class="desserts-card-img">
+                                <img src="./images/desserts-6.png" alt="" />
+                            </div>
+                            <div class="desserts-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="desserts-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="desserts-card card-h3 card-p">
+                            <div class="desserts-card-img">
+                                <img src="./images/desserts-3.png" alt="" />
+                            </div>
+                            <div class="desserts-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="desserts-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- DESSERTS -->
+
+    <!-- DRINK -->
+    <section class="drink" id="drink">
+        <div class="container">
+            <div class="drink-wrapper">
+                <h2>Напитки</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="drink-card card-h3 card-p">
+                            <h4>New</h4>
+                            <div class="drink-card-img">
+                                <img src="./images/drink-1.png" alt="" />
+                            </div>
+                            <div class="drink-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>
+                                    Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...
+                                </p>
+                                <div class="drink-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="drink-card card-h3 card-p">
+                            <h4>Хиты</h4>
+                            <div class="drink-card-img">
+                                <img src="./images/drink-2.png" alt="" />
+                            </div>
+                            <div class="drink-card-inner">
+                                <h3>Филадельфия крем-брюле</h3>
+                                <p>
+                                    Сливочный сыр, семга татаки с <br> тростниковым сахаром, соус у...
+                                </p>
+                                <div class="drink-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="drink-card card-h3 card-p">
+                            <div class="drink-card-img">
+                                <img src="./images/drink-3.png" alt="" />
+                            </div>
+                            <div class="drink-card-inner">
+                                <h3>Супер Филадельфия</h3>
+                                <p>
+                                    Действительно много семги, <br> сливочный сыр, огурец, рис, н...
+                                </p>
+                                <div class="drink-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>425 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="drink-card card-h3 card-p">
+                            <div class="drink-card-img">
+                                <img src="./images/drink-4.png" alt="" />
+                            </div>
+                            <div class="drink-card-inner">
+                                <h3>Тигр мама</h3>
+                                <p>
+                                    Тигровая креветка, огурец, <br> авокадо, соус Айоли, рис, ик...
+                                </p>
+                                <div class="drink-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>525 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="drink-card card-h3 card-p">
+                            <div class="drink-card-img">
+                                <img src="./images/drink-5.png" alt="" />
+                            </div>
+                            <div class="drink-card-inner">
+                                <h3>Супер Филадельфия</h3>
+                                <div class="drink-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>425 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="drink-card card-h3 card-p">
+                            <div class="drink-card-img">
+                                <img src="./images/drink-6.png" alt="" />
+                            </div>
+                            <div class="drink-card-inner">
+                                <h3>Тигр мама</h3>
+                                <div class="drink-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>525 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="drink-card card-h3 card-p">
+                            <div class="drink-card-img">
+                                <img src="./images/drink-1.png" alt="" />
+                            </div>
+                            <div class="drink-card-inner">
+                                <h3>Тигр мама</h3>
+                                <div class="drink-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>425 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="drink-card card-h3 card-p">
+                            <div class="drink-card-img">
+                                <img src="./images/drink-2.png" alt="" />
+                            </div>
+                            <div class="drink-card-inner">
+                                <h3>Тигр мама</h3>
+                                <div class="drink-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>525 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- DRINK -->
+
+    <!-- SAUCE -->
+    <section class="sauce" id="sauce">
+        <div class="container">
+            <div class="sauce-wrapper">
+                <h2>Соусы</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sauce-card card-h3 card-p">
+                            <h4>New</h4>
+                            <div class="sauce-card-img">
+                                <img src="./images/sauce-1.png" alt="" />
+                            </div>
+                            <div class="sauce-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <div class="sauce-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sauce-card card-h3 card-p">
+                            <h4>Хиты</h4>
+                            <div class="sauce-card-img">
+                                <img src="./images/sauce-2.png" alt="" />
+                            </div>
+                            <div class="sauce-card-inner">
+                                <h3>Филадельфия крем-брюле</h3>
+                                <div class="sauce-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sauce-card card-h3 card-p">
+                            <div class="sauce-card-img">
+                                <img src="./images/sauce-3.png" alt="" />
+                            </div>
+                            <div class="sauce-card-inner">
+                                <h3>Супер Филадельфия</h3>
+                                <div class="sauce-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>425 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sauce-card card-h3 card-p">
+                            <div class="sauce-card-img">
+                                <img src="./images/sauce-4.png" alt="" />
+                            </div>
+                            <div class="sauce-card-inner">
+                                <h3>Тигр мама</h3>
+                                <div class="sauce-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>525 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sauce-card card-h3 card-p">
+                            <div class="sauce-card-img">
+                                <img src="./images/sauce-2.png" alt="" />
+                            </div>
+                            <div class="sauce-card-inner">
+                                <h3>Филадельфия крем-брюле</h3>
+                                <div class="sauce-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sauce-card card-h3 card-p">
+                            <div class="sauce-card-img">
+                                <img src="./images/sauce-4.png" alt="" />
+                            </div>
+                            <div class="sauce-card-inner">
+                                <h3>Тигр мама</h3>
+                                <div class="sauce-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>525 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sauce-card card-h3 card-p">
+                            <div class="sauce-card-img">
+                                <img src="./images/sauce-3.png" alt="" />
+                            </div>
+                            <div class="sauce-card-inner">
+                                <h3>Супер Филадельфия</h3>
+                                <div class="sauce-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>425 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="sauce-card card-h3 card-p">
+                            <div class="sauce-card-img">
+                                <img src="./images/sauce-1.png" alt="" />
+                            </div>
+                            <div class="sauce-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <div class="sauce-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- SAUCE -->
+
+    <!-- COMBO -->
+    <section class="combo" id="combo">
+        <div class="container">
+            <div class="combo-wrapper">
+                <h2>Комбо</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="combo-card card-h3 card-p">
+                            <div class="combo-card-img">
+                                <img src="./images/combo-1.png" alt="" />
+                                <div class="combo-card-sale"><span>До 22%</span></div>
+                            </div>
+                            <div class="combo-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...</p>
+                                <div class="combo-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="combo-card card-h3 card-p">
+                            <div class="combo-card-img">
+                                <img src="./images/combo-2.png" alt="" />
+                                <div class="combo-card-sale"><span>До 18%</span></div>
+                            </div>
+                            <div class="combo-card-inner">
+                                <h3>Филадельфия крем-брюле</h3>
+                                <p>Сливочный сыр, семга татаки с <br>тростниковым сахаром, соус у...</p>
+                                <div class="combo-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="combo-card card-h3 card-p">
+                            <div class="combo-card-img">
+                                <img src="./images/combo-3.png" alt="" />
+                                <div class="combo-card-sale"><span>До 10%</span></div>
+                            </div>
+                            <div class="combo-card-inner">
+                                <h3>Супер Филадельфия</h3>
+                                <p>Действительно много семги, <br> сливочный сыр, огурец, рис, н...</p>
+                                <div class="combo-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>425 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="combo-card card-h3 card-p">
+                            <div class="combo-card-img">
+                                <img src="./images/combo-4.png" alt="" />
+                                <div class="combo-card-sale"><span>До -15%</span></div>
+                            </div>
+                            <div class="combo-card-inner">
+                                <h3>Тигр мама</h3>
+                                <p>Тигровая креветка, огурец, <br> авокадо, соус Айоли, рис, ик...</p>
+                                <div class="combo-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>525 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="combo-card card-h3 card-p">
+                            <div class="combo-card-img">
+                                <img src="./images/combo-2.png" alt="" />
+                                <div class="combo-card-sale"><span>До 18%</span></div>
+                            </div>
+                            <div class="combo-card-inner">
+                                <h3>Филадельфия крем-брюле</h3>
+                                <p>Сливочный сыр, семга татаки с <br> тростниковым сахаром, соус у...</p>
+                                <div class="combo-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>395 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="combo-card card-h3 card-p">
+                            <div class="combo-card-img">
+                                <img src="./images/combo-1.png" alt="" />
+                                <div class="combo-card-sale"><span>До 20%</span></div>
+                            </div>
+                            <div class="combo-card-inner">
+                                <h3>Филадельфия кранч</h3>
+                                <p>Семга, рис, сыр креметто, соус <br> унаги, креветка, авокадо, чип...</p>
+                                <div class="combo-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>475 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="combo-card card-h3 card-p">
+                            <div class="combo-card-img">
+                                <img src="./images/combo-4.png" alt="" />
+                                <div class="combo-card-sale"><span>До -15%</span></div>
+                            </div>
+                            <div class="combo-card-inner">
+                                <h3>Тигр мама</h3>
+                                <p>Тигровая креветка, огурец, <br> авокадо, соус Айоли, рис, ик...</p>
+                                <div class="combo-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>525 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div class="combo-card card-h3 card-p">
+                            <div class="combo-card-img">
+                                <img src="./images/combo-3.png" alt="" />
+                                <div class="combo-card-sale"><span>До 10%</span></div>
+                            </div>
+                            <div class="combo-card-inner">
+                                <h3>Супер Филадельфия</h3>
+                                <p>Действительно много семги, <br> сливочный сыр, огурец, рис, н...</p>
+                                <div class="combo-btn btns">
+                                    <a href="">Выбрать</a>
+                                    <span>425 ₽</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- COMBO -->
+
+    <!-- DILEVERY -->
+    <section class="delivery">
+        <div class="container">
+            <div class="delivery-wrapper">
+                <h2>Доставка пиццы в Москве</h2>
+                <p>Захотелось чего-то вкусного и сытного? Желание простое и понятное, только в холодильнике все не то,
+                    <br> и до магазина идти лень. Все пропало? Нет. Недорого заказать пиццу в Москве очень просто! Вам
+                    на <br> помощь спешит супергерой – Domino’s Pizza! Как у всякого супергероя, у Domino’s Pizza есть
+                    свои <br> суперсилы: восхитительный вкус продукции из отборных ингредиентов; широкий ассортимент,
+                    <br> включающий легендарные, фирменные и классические виды, для вегетарианцев и любителей
+                    <br>экспериментировать; быстрая и бесплатная доставка пиццы в течение 30 минут, чтобы вкусное и <br>
+                    ароматное блюдо не успевало остыть. <br><br><br>
+
+                    Как сделать заказ
+                    Доставка пиццы от Domino’s – это когда Вам не нужно никуда ехать или звонить, ведь есть Интернет.
+                    Никогда еще заказ пиццы на дом в Москве не был таким простым! Чтобы заказать пиццу онлайн, Вам
+                    необходимо: выбрать понравившийся вариант и количество порций; положить желаемое в «Корзину»; не
+                    уходить далеко, так как вкусная пицца на заказ с доставкой уже мчится к Вам из ближайшей пиццерии
+                    Domino’s. И не забудьте оплатить заказ курьеру!
+                </p>
+                <div class="delivery-btn btns">
+                    <a href="">Показать полностью</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- DILEVERY -->
+
+    <!-- MAIN -->
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-link">
+                    <div class="footer-logo">
+                        <a href="">
+                            <img src="./images/footer-logo.svg" alt="">
+                            <p>Куда пицца</p>
+                        </a>
+                    </div>
+                    <div class="footer-list">
+                        <h6>Куда пицца</h6>
+                        <ul>
+                            <li><a href="">О компании</a></li>
+                            <li><a href="">Пользовательское соглашение</a></li>
+                            <li><a href="">Условия гарантии</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-list">
+                        <h6>Помощь</h6>
+                        <ul>
+                            <li><a href="">Ресторан</a></li>
+                            <li><a href="">Контакты</a></li>
+                            <li><a href="">Поддержка</a></li>
+                            <li><a href="">Отследить заказ</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-list">
+                        <h6>Контакты</h6>
+                        <ul>
+                            <li><a href=""><i class="icon-phone"><span>+7 (926) 223-10-11</span></i></a></li>
+                            <li><a href=""><i class="icon-Location-nav"><span>Москва, ул. Юных Ленинцев,
+                                            д.99</span></i></a></li>
+                        </ul>
+                        <div class="footer-social">
+                            <a href=""><i class="icon-Facebook"><span>Facebook</span></i></a>
+                            <a href=""><i class="icon-instagramm"><span>Instagram</span></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JS -->
+    <script src="libs/bootstrap.min.js"></script>
+    <script src="js/index.js    "></script>
+    <!-- JS -->
+</body>
+
+</html>

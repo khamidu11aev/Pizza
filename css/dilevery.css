@@ -1,0 +1,43 @@
+.delivery-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    width: 850px;
+    max-width: 100%;
+    margin-bottom: 60px;
+}
+
+
+.delivery-wrapper h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 40px;
+    color: #191919;
+    margin-bottom: 16px;
+}
+
+.delivery-wrapper p {
+    font-family: 'SF Pro Text Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    background: linear-gradient(180deg, rgba(249, 249, 249, 0) 0%, #F9F9F9 100%), #191919;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: auto;
+    margin-bottom: 16px;
+}
+
+.delivery-btn a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FF7010;
+}

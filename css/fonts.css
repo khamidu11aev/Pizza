@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url(./fonts/Inter-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'SF Pro Text Regular';
+    src: url(./fonts/SF\ ProText-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'SF Pro Text Bold';
+    src: url(./fonts/SF\ ProText-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'SF Pro Text Semibold';
+    src: url(./fonts/SF\ ProText-Semibold.ttf);
+}
+
+@font-face {
+    font-family: 'SF Pro Text Medium';
+    src: url(./fonts/SF\ ProText-Medium.ttf);
+}

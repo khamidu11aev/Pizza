@@ -1,0 +1,134 @@
+.pizza-wrapper h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 48px;
+    display: flex;
+    align-items: center;
+    color: #191919;
+    margin-bottom: 32px;
+}
+
+.pizza-wrapper {
+    margin-bottom: 46px;
+}
+
+.pizza-wrapper .row>.col-3 {
+    margin-bottom: 28px;
+}
+
+.pizza-card {
+    height: 480px;
+    width: 300px;
+    border: 1px solid #F0F0F0;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    overflow: hidden;
+    border: 1px solid #F0F0F0;
+    border-radius: 12px;
+    position: relative;
+}
+
+.pizza-card h4 {
+    position: absolute;
+    left: 0;
+    top: 20px;
+    background: #E23535;
+    padding: 7px 16px;
+    color: #FFFFFF;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 99;
+}
+
+.pizza-card-img {
+    overflow: hidden;
+}
+
+.pizza-card-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: 350ms;
+}
+
+.pizza-card-img img:hover {
+    transform: scale(1.2);
+    transition: 350ms;
+}
+
+.pizza-card-inner {
+    padding: 16px 20px 20px 20px;
+}
+
+.pizza-card-inner h3 {
+    font-family: 'SF Pro Text Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #191919;
+    margin-bottom: 12px;
+}
+
+.pizza-card-inner p {
+    font-family: 'SF Pro Text Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #191919;
+    margin-bottom: 16px;
+}
+
+.pizza-btn {
+    display: flex;
+    align-items: center;
+}
+
+.pizza-btn a {
+    height: 48px;
+    padding: 0 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    font-family: 'SF Pro Text Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    color: #FFFFFF;
+    background: #FF7010;
+    border-radius: 6px;
+    transition: 35ms;
+}
+
+.pizza-btn a:hover {
+    transform: 350ms;
+    color: #E23535;
+    background: black;
+}
+
+.pizza-btn span {
+    font-family: 'SF Pro Text Semibold';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: right;
+    color: #FF7010;
+    margin-left: 51px;
+}
